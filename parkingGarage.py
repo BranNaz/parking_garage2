@@ -81,12 +81,13 @@ class parkingGarage():
         print("Welcome to Tony's yard/event parking!")
         while True:
             menu = input('p to park, pay to pay, l to leave, done to quit')
-            if menu == 'p':
-                self.takeTicket()
-            elif menu == 'pay':
-                self.payForParking()
-            elif menu == 'l':
-                self.leaveGarage()
+            # a few things in here makes this a fully functional program.
+
+            # Finish it off!
+            # All right here!
+
+
+            
             elif menu == 'done':
                 print(f"\n\nHey Tony!  We made ${self.bank} today.")
                 return False
